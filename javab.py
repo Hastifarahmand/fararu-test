@@ -17,4 +17,5 @@ for link in links:
     web=requests.get(img)
     f2.write(web.content)
     f2.close()
+    
 # print(len(dvs))
